@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
     { !isLoggedIn && <StartingPage/> }
-    {isLoggedIn && <Layout/>}
+    { isLoggedIn && <Layout/> }
     </>
   )
 }

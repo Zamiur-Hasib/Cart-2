@@ -1,0 +1,16 @@
+
+.startpage-container{
+    text-align: center;
+    margin: 100px 250px;
+}
+.start-btn{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+.start-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}

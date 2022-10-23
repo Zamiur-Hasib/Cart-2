@@ -1,0 +1,33 @@
+.navbar{
+    position: sticky;
+    box-shadow: 0px 10px 20px #ccc;
+    margin-bottom: 10px;
+    background-color: rgb(180, 231, 214);
+}
+.header-h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header-h3{
+    border-radius: 30px;
+    background-color: rgb(23, 240, 23);
+    margin: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    box-shadow: 0px 5px 10px black;
+}
+.logout-btn{
+    background-color: rgb(23, 240, 23);
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin: 5px;
+}
+.logout-btn:hover{
+    background-color: brown;
+    color: black;
+}

@@ -1,0 +1,40 @@
+.cart-container{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-top: 5px solid black;
+    background-color: rgb(238, 185, 165);
+}
+.cart-heading{
+    background-color: rgb(37, 22, 3);
+    border-radius: 50px;
+    color: beige;
+    padding: 10px;
+    font-size: 2rem;
+}
+.cart-item{
+    background-color: coral;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    font-size: 1 rem;
+    padding: 20px;
+}
+.cart-action{
+    background-color: rgb(221, 225, 235);
+    color: rgba(0, 0, 0, 0.925);
+    width: 25px;
+    height: 25px;
+    font-size: 1 rem;
+    font-weight: bold;
+    border-radius: 50%;
+    align-items: center;
+}
+.cart-action:hover{
+    background-color: rgb(183, 245, 121);
+    scale: 1.5;
+}

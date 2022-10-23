@@ -1,6 +1,7 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { startAction } from '../Store/startSlice'
+import './Startpage.css'
 
 const StartingPage = () => {
     const dispatch = useDispatch()
@@ -8,8 +9,7 @@ const StartingPage = () => {
         dispatch(startAction.login())
     }
   return (
-    <div>
-      <h2>To start, click the button</h2>
+    <div className='startpage-container'>
       <button className="start-btn" onClick={loginHandler}>Start</button>
     </div>
   )
